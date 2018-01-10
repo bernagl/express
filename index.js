@@ -2,7 +2,7 @@ const express = require('express')
 const app = express()
 
 app.get('/', (req, res) => {
-  res.send({ hi: 'Hola' })
+  res.send({ hi: 'there :DDD' })
 })
 
 // process.env.PORT get the port of the environment production
